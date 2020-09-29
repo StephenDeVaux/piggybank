@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poiret One', cursive;
+    color: palevioletred;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 245);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+img:hover {
+    box-shadow: 3px 3px 4px 5px #bdbbbb;
+}
+
+input {
+    border: none;
+    background-color: pink;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Poiret One', cursive;
+    margin: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    height: 100vh;
+}
+
+.coins {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    padding-top: 5vw;
+}
+
+.container {
+    background-image: url("https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.total {
+    /* border: 1px solid palevioletred; */
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    border: 1px solid pink;
+}
+
+.withdraw {
+    /* border: 1px solid palevioletred; */
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 30%;
+    text-align: center;
+}
+
+.withdrawel {
+    background: url("https://images.unsplash.com/photo-1554768804-50c1e2b50a6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+    font-family: 'Lobster', cursive;
+    align-items: center;
+    display: none;
+}
+
+.nope {
+    background-image: url("https://images.unsplash.com/photo-1573019606806-9695d0a9739d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 70px;
+    display: none;
+}
